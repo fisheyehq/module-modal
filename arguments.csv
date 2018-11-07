@@ -6,7 +6,7 @@ buttonClass,string,No,N/A,
 buttonText,string,No,N/A,'Close'
 displayButton,boolean,No,true|false,false
 clickableOverlay,boolean,No,true|false,true
-focus,string,No,N/A,'[data-role="closeBtn"]'
+focus,string,No,N/A,'[data-role=\"closeBtn\"]'
 innerScroll,boolean,No,true|false,false
 modalClass,string,No,N/A,
 modalLeftMargin,number,No,Integer numbers,45
