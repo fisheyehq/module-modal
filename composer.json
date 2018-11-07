@@ -1,0 +1,27 @@
+{
+    "name": "fisheye/module-modal",
+    "description": "A Magento 2 module that adds a reusable modal component that can be configured using layout XML arguments.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "require": {
+        "magento/module-ui": "^101.0"
+    },
+    "authors": [
+        {
+            "name": "Fisheye Media Ltd.",
+            "homepage": "https://fisheye-webdesign.co.uk/"
+        },
+        {
+            "name": "John Hughes",
+            "email": "johnh@fisheyehq.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Fisheye\\Modal\\": ""
+        }
+    }
+}

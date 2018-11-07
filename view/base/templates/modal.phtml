@@ -1,0 +1,18 @@
+<?php
+/**
+ * Copyright © Fisheye Media Ltd. All rights reserved.
+ * See LICENCE.txt for licence details.
+ */
+/** @var Fisheye\Modal\Block\Modal $block */
+?>
+<div class="fisheye-modal" data-mage-init='{"fisheye/modal": <?= $block->getModalConfig() ?> }'>
+
+    <a href="#" data-role="trigger" class="<?= $block->getLinkClass() ?>">
+        <?= $block->getLinkText() ?>
+    </a>
+
+    <div data-role="target" style="display:none;">
+        <?= $block->getChildHtml() ?>
+    </div>
+
+</div>

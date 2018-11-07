@@ -1,0 +1,15 @@
+Argument Name,Type,Required,Allowed Values,Default Value
+linkText,string,Yes,N/A,
+linkClass,string,No,N/A,
+autoOpen,boolean,No,true|false,false
+buttonClass,string,No,N/A,
+buttonText,string,No,N/A,'Close'
+displayButton,boolean,No,true|false,false
+clickableOverlay,boolean,No,true|false,true
+focus,string,No,N/A,'[data-role="closeBtn"]'
+innerScroll,boolean,No,true|false,false
+modalClass,string,No,N/A,
+modalLeftMargin,number,No,Integer numbers,45
+responsive,boolean,No,true|false,false
+title,string,No,N/A,
+type,string,No,'popup'|'slide','popup'
