@@ -11,5 +11,5 @@ innerScroll,boolean,No,true|false,false
 modalClass,string,No,N/A,
 modalLeftMargin,number,No,Integer numbers,45
 responsive,boolean,No,true|false,false
-title,string,No,N/A,
-type,string,No,'popup'|'slide','popup'
+modalTitle,string,No,N/A,
+modalType,string,No,'popup'|'slide','popup'

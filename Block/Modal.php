@@ -116,7 +116,7 @@ class Modal extends Template
 
     private function getModalTitle(): string
     {
-        return $this->getData('title') ? $this->escapeHtml($this->getData('title')): '';
+        return $this->getData('modalTitle') ? $this->escapeHtml($this->getData('modalTitle')): '';
     }
 
     /**
@@ -124,7 +124,7 @@ class Modal extends Template
      */
     private function getModalType(): string
     {
-        $type = strtolower($this->getData('type'));
+        $type = $this->getData('modalType');
         if ($type === 'popup' || $type === 'slide') {
             return $type;
         }

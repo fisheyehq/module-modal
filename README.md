@@ -16,7 +16,7 @@ To create a modal component you need to create a block using `Fisheye\Modal\Bloc
 
 An example below shows adding a a block to the product page (note: this would need to be in a layout file with the handle `catalog_product_view.xml`) under the add to wishlist and compare links etc.
 
-The required `linkText` value as well as a `title` for the modal to display once opened are passed in via arguments and a CMS block is added as a child block for the modal's content.
+The required `linkText` value as well as a `modalTitle` for the modal to display once opened are passed in via arguments and a CMS block is added as a child block for the modal's content.
 
 ```
 <referenceContainer name="product.info.main">
@@ -26,7 +26,7 @@ The required `linkText` value as well as a `title` for the modal to display once
            after="product.info.extrahint">
         <arguments>
             <argument name="linkText" translate="true" xsi:type="string">My link text to trigger modal</argument>
-            <argument name="title" translate="true" xsi:type="string">My modal title</argument>
+            <argument name="modalTitle" translate="true" xsi:type="string">My modal title</argument>
         </arguments>
         <block class="Magento\Cms\Block\Block"
                name="my.modal.content">
