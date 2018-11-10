@@ -15,7 +15,7 @@ class Modal extends Template
     public function getChildHtml($alias = '', $useCache = true)
     {
         $childHtml = parent::getChildHtml($alias, $useCache);
-        if (is_null($childHtml) || $childHtml == '') {
+        if (is_null($childHtml)) {
             throw new \Exception(__('At least one child block must be passed via layout for the modal content.'));
         }
         return $childHtml;
